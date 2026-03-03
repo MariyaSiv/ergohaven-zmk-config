@@ -10,13 +10,13 @@
 
         cmben {
             bindings = <&layer_en>;
-            key-positions = <15 16>;
+            key-positions = <3 4>;
             layers = <1>;
         };
 
         cmbru {
             bindings = <&layer_ru>;
-            key-positions = <15 16>;
+            key-positions = <3 4>;
             layers = <0>;
         };
     };
@@ -174,10 +174,10 @@
 
         nav {
             bindings = <
-&trans  &trans  &kp HOME      &kp UP    &kp END        &kp INS                    &kp PG_UP        &kp N7  &kp N8  &kp N9  &trans  &trans
-&trans  &trans  &kp LEFT      &kp DOWN  &kp RIGHT      &kp RET                    &kp PG_DN        &kp N4  &kp N5  &kp N6  &trans  &trans
-&trans  &trans  &kp LC(LEFT)  &kp CAPS  &kp LC(RIGHT)  &kp DEL  &trans    &trans  &kp PRINTSCREEN  &kp N1  &kp N2  &kp N3  &trans  &trans
-                                        &trans         &trans   &trans    &trans  &mo 5            &trans
+&trans  &trans  &kp HOME      &to_en    &to_ru         &kp INS                    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp PSCRN  &trans
+&trans  &kp N1  &kp N2        &kp N3    &kp N4         &kp N5                     &kp N6    &kp N7    &kp N8  &kp N9     &kp N0     &trans
+&trans  &trans  &kp LC(LEFT)  &kp CAPS  &kp LC(RIGHT)  &kp DEL  &trans    &trans  &trans    &trans    &trans  &trans     &trans     &trans
+                                        &trans         &trans   &trans    &trans  &mo 5     &trans
             >;
 
             display-name = "Nav";
@@ -185,9 +185,9 @@
 
         sym_en {
             bindings = <
-&kp TILDE  &kp AT    &kp LPAR        &kp EQUAL      &kp RPAR         &kp ASTRK                    &trans     &kp LBKT       &kp UNDER         &kp RBKT          &kp PIPE  &trans
-&trans     &kp PLUS  &kp MINUS       &kp COLON      &kp COMMA        &kp DQT                      &kp PRCNT  &kp DOT        &kp SEMI          &kp QUESTION      &kp EXCL  &trans
-&trans     &kp HASH  &kp LEFT_BRACE  &kp AMPERSAND  &kp RIGHT_BRACE  &kp FSLH   &trans    &trans  &kp NUBS   &kp LESS_THAN  &kp SINGLE_QUOTE  &kp GREATER_THAN  &kp DOT   &trans
+&kp TILDE  &kp AT    &kp LPAR        &kp EQUAL      &kp RPAR         &kp ASTRK                    &kp CARET  &kp LBKT       &kp UNDER         &kp RBKT          &kp PIPE    &kp RU_NUMERO
+&kp GRAVE  &kp PLUS  &kp MINUS       &kp COLON      &kp COMMA        &kp DQT                      &kp PRCNT  &kp DOT        &kp SEMI          &kp QUESTION      &kp EXCL    &trans
+&trans     &kp HASH  &kp LEFT_BRACE  &kp AMPERSAND  &kp RIGHT_BRACE  &kp FSLH   &trans    &trans  &kp NUBS   &kp LESS_THAN  &kp SINGLE_QUOTE  &kp GREATER_THAN  &kp DOLLAR  &trans
                                                     &trans           &mo 5      &trans    &trans  &trans     &trans
             >;
 
@@ -197,10 +197,10 @@
         sym_ru {
             display-name = "Symbols";
             bindings = <
-&trans  &en AT_SIGN  &en LT        &kp EQUAL     &en GT       &en GRAVE                        &trans          &en LBKT  &kp UNDER    &en RBKT  &trans      &trans
-&trans  &kp RU_BSLH  &kp LPAR      &kp MINUS     &kp RPAR     &kp PLUS                         &kp RU_PERCENT  &en LBRC  &kp RU_SEMI  &kp RBRC  &kp EXCL    &kp RU_QUESTION
-&trans  &en HASH     &kp RU_ASTRK  &kp RU_COLON  &kp RU_FSLH  &kp RU_NUMERO  &trans    &trans  &trans          &en PIPE  &en TILDE    &en AMPS  &kp RU_DOT  &trans
-                                                 &trans       &mo 5          &trans    &trans  &trans          &trans
+&en TILDE  &en AT_SIGN  &kp RU_LEFT_PARENTHESIS  &kp EQUAL      &kp RU_RIGHT_PARENTHESIS  &kp RU_STAR                             &en CARET         &en LBKT       &kp UNDER         &en RBKT          &en PIPE    &kp RU_NUMERO
+&en GRAVE  &kp PLUS     &kp RU_MINUS             &kp RU_COLON   &kp RU_COMMA              &kp RU_DOUBLE_QUOTES                    &kp RU_PERCENT    &kp RU_DOT     &kp RU_SEMI       &kp RU_QUESTION   &kp EXCL    &trans
+&trans     &en HASH     &en LEFT_BRACE           &en AMPERSAND  &en RIGHT_BRACE           &kp RU_SLASH          &trans    &trans  &kp RU_BACKSLASH  &en LESS_THAN  &en SINGLE_QUOTE  &en GREATER_THAN  &en DOLLAR  &trans
+                                                                &trans                    &mo 5                 &trans    &trans  &trans            &trans
             >;
         };
 
