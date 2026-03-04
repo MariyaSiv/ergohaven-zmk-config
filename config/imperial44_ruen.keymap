@@ -163,8 +163,8 @@
         en {
             bindings = <
 &kp TAB       &kp Q            &kp W            &kp E         &kp R              &kp T                           &kp Y  &kp U              &kp I         &kp O            &kp P               &kp TAB
-&kp CAPSLOCK  &HML LEFT_ALT A  &HML LEFT_GUI S  &HML LCTRL D  &HML LEFT_SHIFT F  &kp G                           &kp H  &HMR LEFT_SHIFT J  &HMR LCTRL K  &HMR LEFT_GUI L  &HMR LEFT_ALT SEMI  &kp LEFT_BRACE
-&kp GRAVE     &kp Z            &kp X            &kp C         &kp V              &kp B  &kp C_MUTE    &kp HOME   &kp N  &kp M              &kp COMMA     &kp DOT          &kp SQT             &kp RIGHT_BRACE
+&kp CAPSLOCK  &HML LEFT_ALT A  &HML LEFT_GUI S  &HML LCTRL D  &HML LEFT_SHIFT F  &kp G                           &kp H  &HMR LEFT_SHIFT J  &HMR LCTRL K  &HMR LEFT_GUI L  &HMR LEFT_ALT SEMI  &kp LEFT_BRACKET
+&kp GRAVE     &kp Z            &kp X            &kp C         &kp V              &kp B  &kp C_MUTE    &kp HOME   &kp N  &kp M              &kp COMMA     &kp DOT          &kp SQT             &kp RIGHT_BRACKET
                                                               &kp ESC            &mo 2  &lg_space     &kp ENTER  &mo 3  &kp BACKSPACE
             >;
 
