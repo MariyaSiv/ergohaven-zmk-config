@@ -186,7 +186,7 @@
 
         nav {
             bindings = <
-&trans  &trans            &trans            &kp LG(SPACE)  &tog 1              &trans                    &kp LEFT            &kp DOWN            &kp UP         &kp RIGHT         &kp PSCRN         &trans
+&trans  &trans            &trans            &lg_tog        &tog 1              &trans                    &kp LEFT            &kp DOWN            &kp UP         &kp RIGHT         &kp PSCRN         &trans
 &trans  &HML LEFT_ALT N1  &HML LEFT_GUI N2  &HML LCTRL N3  &HML LEFT_SHIFT N4  &kp N5                    &kp N6              &HMR LEFT_SHIFT N7  &HMR LCTRL N8  &HMR LEFT_GUI N9  &HMR LEFT_ALT N0  &trans
 &trans  &trans            &trans            &trans         &trans              &trans  &trans    &trans  &kp LC(LEFT_ARROW)  &zoom_in            &zoom_out      &kp LC(RIGHT)     &trans            &trans
                                                            &trans              &trans  &trans    &trans  &mo 5               &trans
